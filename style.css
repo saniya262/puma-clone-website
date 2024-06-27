@@ -1,0 +1,378 @@
+*{
+    font-family: "Open Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+
+
+}
+
+
+.nav-div1{
+    background-color: #ae946d;
+    padding: 1px;
+   
+}
+.navbar{
+    background-color: black;
+  position: sticky;
+    
+}
+
+
+form input[type="search"]:hover {
+    border-color: rgb(89, 120, 153); 
+}
+
+input::-ms-input-placeholder {
+    color: white;
+}
+
+.banner-text{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+.banner-text h1{
+    color: white;
+}
+.banner-text h3{
+    color: white;
+}
+.banner-text h5{
+    color: white;
+}
+
+.banner-right-text img{
+    position: absolute;
+    top: 35%;
+    left: 74%;
+    
+    
+}
+
+.hot-discount h1{
+
+    font-weight: 670;
+}
+
+.hot-discount h5{
+
+    font-weight: 370;
+}
+
+.hot-discount-img{
+
+    display: flex;
+    justify-content: center;
+    margin-top: -45px;
+}
+
+.hot-discount-img p{
+
+    position: absolute;
+    color: rgb(39, 35, 35);
+    font-size:14px;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+.hot-discount-img img{
+    border: 1px double brown;
+    border-radius: 100%;
+}
+
+.second-banner{
+
+    margin-top: 30px;
+}
+
+.second-banner-left{
+
+    position: absolute;
+    top: 140%;
+    left: 2%;
+}
+
+.second-banner-right{
+    position: absolute;
+    top: 160%;
+    left: 50%;
+}
+
+.second-banner-right h1{
+    color: white;
+}
+.second-banner-right h3{
+    color: white;
+}
+.second-banner-right h5{
+    color: white;
+}
+
+.shoe-collection h4{
+
+
+    font-weight: 650;
+}
+
+.shoe-collection {
+    overflow-x: auto; /* Enable horizontal scrolling */
+    padding-bottom: 10px; /* Add some padding at the bottom for better visibility of the scrollbar */
+        display: flex;
+        white-space: nowrap;
+       
+}
+
+.shoe-collection {
+    display: flex;
+    white-space: nowrap;
+}
+
+.shoe-collection::-webkit-scrollbar {
+    height: 5px;
+   
+}
+
+.shoe-collection::-webkit-scrollbar-thumb {
+    background: #2c2b29;
+    border-radius: 10px;
+}
+
+.shoe-collection::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px; 
+}
+
+.card {
+    display: inline-block;
+    width: 100px;
+    margin-right: 20px; 
+    
+   
+    
+}
+.card-title{
+
+   font-size: 15px;
+   font-weight: 600;
+   margin-left:-10px;
+}
+
+
+
+ #btn1{
+    margin-left: 0px;
+    margin-top: -865px;
+    
+    
+ }
+ #btn2{
+    
+    margin-left: 0px;
+    margin-top: -865px;
+    
+ }
+
+ #btn3{
+
+   
+    margin-left: 0px;
+    margin-top: -856px;
+ 
+ }
+ #btn4{
+
+    margin-left: 0px;
+    margin-top: -856px;
+ 
+ }
+ #btn5{
+
+   
+    margin-left: 0px;
+    margin-top: -856px;
+ }
+ #btn6{
+    
+    margin-left: 0px;
+    margin-top: -865px;
+    
+ }
+
+ .shoe-collection-card{
+
+    width: 00px;
+ }
+
+ .card-text1{
+
+    
+    margin-top: -60px;
+    margin-left: 300px;
+ }
+
+ .card-text2{
+
+    
+    margin-top: -60px;
+    margin-left: 300px;
+ }
+ .card-text3{
+
+   
+    margin-top: -40px;
+    margin-left: 300px;
+ 
+ }
+ .card-text4{
+
+    
+    margin-top: -40px;
+    margin-left: 325px;
+ }
+ .card-text5{
+
+    
+    margin-top: -40px;
+    margin-left: 300px;
+ }
+
+ .card-text6{
+
+    
+    margin-top: -60px;
+    margin-left: 300px;
+ }
+
+ .third-banner-right{
+    text-align:end;
+    position: absolute;
+    top: 304%;
+    left: 63%;
+    color: white;
+    font-size: small;
+}
+.fourth-banner-left{
+    text-align:start;
+    position: absolute;
+    top: 384%;
+    left: 3%;
+    color: white;
+    
+}
+
+.video-banner-text{
+    text-align:start;
+    position: absolute;
+    top: 450%;
+    left: 3%;
+    color: rgb(0, 0, 0);
+    
+}
+.video-banner-image{
+    position: absolute;
+    top: 430%;
+    margin-left: 46%;
+}
+
+video{
+    width: 45%;
+    height: 340px;
+    object-fit: cover;
+    position: absolute;
+    top: 475%;
+    left: 3%;
+}
+
+.fifth-banner{
+
+    margin-top: 110px;
+}
+.fifth-banner-left{
+
+    text-align:start;
+    position: absolute;
+    top: 550%;
+    left: 3%;
+    color: rgb(0, 0, 0);
+
+}
+
+.sixth-banner-left{
+
+    text-align:center;
+    position: absolute;
+    top: 628%;
+    left: 71%;
+    color: black;
+  
+}
+
+.seventh-banner-left{
+
+    text-align:start;
+    position: absolute;
+    top: 727%;
+    left: 3%;
+    color: rgb(0, 0, 0);
+
+}
+
+
+
+
+.footer p a{
+    
+text-decoration: none;
+color: rgb(222, 222, 222);
+font-weight: 100;
+
+
+}
+
+.social-icons{
+	
+  text-align: start;
+  margin-left: -10px;
+  height: 0px;
+
+  
+  
+}
+.social-icons a{
+	color:#fff;
+  line-height:30px;
+  font-size:30px;
+  margin:  5px;
+  text-decoration:none;
+  
+}
+.social-icons a i{
+	line-height:30px;
+  font-size:30px;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1); 
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1); 
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1);
+  transition: all 200ms ease-in;
+  transform: scale(1);
+  margin: 8px;
+}
+.social-icons a:hover i{
+  box-shadow: 0px 0px 150px #000000;
+  z-index: 2;
+  -webkit-transition: all 200ms ease-in;
+  -webkit-transform: scale(1.5);
+  -ms-transition: all 200ms ease-in;
+  -ms-transform: scale(1.5);   
+  -moz-transition: all 200ms ease-in;
+  -moz-transform: scale(1.5);
+  transition: all 200ms ease-in;
+  transform: scale(1.5);
+}
