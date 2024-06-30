@@ -19,6 +19,10 @@
   position: sticky;
     
 }
+.nav-item a:hover{
+
+    border:1px solid #b0aeae;
+}
 
 
 form input[type="search"]:hover {
@@ -38,13 +42,25 @@ input::-ms-input-placeholder {
 .banner-text h1{
     color: white;
 }
+.banner-text h1:hover{
+    transform: scale(1.1);
+transition: transform 0.5s ease;
+}
 .banner-text h3{
     color: white;
+}
+
+.banner-text h3:hover{
+    transform: scale(1.1);
+transition: transform 0.5s ease;
 }
 .banner-text h5{
     color: white;
 }
-
+.banner-text h5:hover{
+    transform: scale(1.1);
+transition: transform 0.5s ease;
+}
 .banner-right-text img{
     position: absolute;
     top: 35%;
@@ -53,6 +69,10 @@ input::-ms-input-placeholder {
     
 }
 
+.banner-right-text img:hover{
+    transform: scale(1.1);
+transition: transform 0.5s ease;
+}
 .hot-discount h1{
 
     font-weight: 670;
@@ -70,20 +90,29 @@ input::-ms-input-placeholder {
     margin-top: -45px;
 }
 
-.hot-discount-img p{
+.hot-discount-img a{
 
     position: absolute;
     color: rgb(39, 35, 35);
     font-size:14px;
     color: white;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
 
+}
+.hot-discount-img img:hover{
+
+
+transform: scale(1.1);
+transition: transform 0.5s ease;
+    
 }
 
 .hot-discount-img img{
     border: 1px double brown;
     border-radius: 100%;
 }
+
 
 .second-banner{
 
@@ -97,15 +126,28 @@ input::-ms-input-placeholder {
     left: 2%;
 }
 
+.second-banner-left:hover{
+
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+        
+
+}
+
+
 .second-banner-right{
     position: absolute;
     top: 160%;
     left: 50%;
 }
 
+
+
 .second-banner-right h1{
     color: white;
 }
+
+
 .second-banner-right h3{
     color: white;
 }
@@ -127,10 +169,6 @@ input::-ms-input-placeholder {
        
 }
 
-.shoe-collection {
-    display: flex;
-    white-space: nowrap;
-}
 
 .shoe-collection::-webkit-scrollbar {
     height: 5px;
@@ -147,14 +185,8 @@ input::-ms-input-placeholder {
     border-radius: 10px; 
 }
 
-.card {
-    display: inline-block;
-    width: 100px;
-    margin-right: 20px; 
-    
-   
-    
-}
+
+
 .card-title{
 
    font-size: 15px;
@@ -208,6 +240,33 @@ input::-ms-input-placeholder {
     width: 00px;
  }
 
+
+ .card1:hover{
+    transform: scale(0.900);
+transition: transform 0.5s ease;
+ }
+ .card2:hover{
+    transform: scale(0.900);
+transition: transform 0.5s ease;
+ }
+ .card3:hover{
+    transform: scale(0.900);
+transition: transform 0.5s ease;
+ }
+
+ .card4:hover{
+    transform: scale(0.900);
+transition: transform 0.5s ease;
+ }
+ .card5:hover{
+    transform: scale(0.900);
+transition: transform 0.5s ease;
+ }
+
+ .card6:hover{
+    transform: scale(0.900);
+transition: transform 0.5s ease;
+ }
  .card-text1{
 
     
@@ -248,6 +307,8 @@ input::-ms-input-placeholder {
     margin-left: 300px;
  }
 
+
+ 
  .third-banner-right{
     text-align:end;
     position: absolute;
@@ -319,6 +380,28 @@ video{
     top: 727%;
     left: 3%;
     color: rgb(0, 0, 0);
+
+}
+
+.row1 img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+
+}
+.row2 img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+
+}
+
+.visa-card img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
+
+}
+.indian-flag img:hover{
+    transform: scale(1.1);
+    transition: transform 0.5s ease;
 
 }
 
